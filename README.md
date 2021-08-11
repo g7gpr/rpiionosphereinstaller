@@ -28,8 +28,17 @@ echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 echo 'export GOPATH=$HOME/go' >> ~/.bashrc
 source ~/.bashrc
 ```
+Now add yourself to the plugdev group.
 
-Edit aprs/ionosphere/config/config.yml to suit. Key points are the frequency, callsign and passcode. Change to the ionosphere location and execute
+```
+sudo usermod -aG plugdev yourusername
+```
+
+
+Edit aprs/ionosphere/config/config.yml to suit. Key points are the frequency, callsign and passcode. 
+
+
+Logout, login, change to the ionosphere location and execute
 
 ```
 ./ionosphere
