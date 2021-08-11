@@ -27,7 +27,7 @@ You will need to run the following commands to add the paths
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 echo 'export GOPATH=$HOME/go' >> ~/.bashrc
 source ~/.bashrc
-'''
+```
 
 Edit aprs/ionosphere/config/config.yml to suit. Key points are the frequency, callsign and passcode. Change to the ionosphere location and execute
 
