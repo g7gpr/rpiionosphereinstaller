@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ..
-rm -rf aprs
+
 if [ -d "aprs" ] 
 then
 	echo "Info : aprs directory already exists"
@@ -67,11 +67,11 @@ git clone https://github.com/cceremuga/ionosphere
 cd ionosphere
 go build
 #go install
-if [ -d "aprs" ] 
+if [ -d "logs" ] 
 then
 	echo "Info : logs directory already exists"
 else
 	mkdir logs
 fi
-sudo ./ionosphere
+sudo cp ./ionosphere /usr/local/bin/
 cd ..

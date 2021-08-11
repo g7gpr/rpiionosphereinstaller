@@ -18,3 +18,21 @@ git clone https://github.com/g7gpr/rpiaprsinstaller
 cd rpiaprsinstaller
 ./aprs.sh
 ```
+
+# After the script has completed
+
+You will need to run the following commands to add the paths 
+
+```
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+echo 'export GOPATH=$HOME/go' >> ~/.bashrc
+'''
+
+edit aprs/ionosphere/config/config.yml to suit. Key points are the frequency, callsign and passcode
+
+
+Logout and login, and you should be able to excute
+
+```
+ionosphere
+```
