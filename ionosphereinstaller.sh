@@ -73,5 +73,4 @@ then
 else
 	mkdir logs
 fi
-sudo cp ./ionosphere /usr/local/bin/
 cd ..
