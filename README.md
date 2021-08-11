@@ -16,7 +16,7 @@ To clone and run the script
 sudo apt-get install git -y
 git clone https://github.com/g7gpr/rpiionosphereinstaller 
 cd rpiionosphereinstaller
-./aprs.sh
+./ionosphereinstaller.sh
 ```
 
 # After the script has completed
