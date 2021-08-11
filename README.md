@@ -1,4 +1,4 @@
-# rpiaprsinstaller
+# rpiionosphereinstaller
 
 This bash shell script is intended to install Ionosphere from https://github.com/cceremuga/ionosphere onto a raspberry pi.
 
