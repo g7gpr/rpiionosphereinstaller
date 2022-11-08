@@ -13,7 +13,7 @@ echo "Updates and Upgrades"
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install aptitude -y
-sudo aptitide install -y rng-tools libsamplerate-dev libatlas3-base libgfortran5 -y
+sudo aptitude install -y rng-tools libsamplerate-dev libatlas3-base libgfortran5 -y
 sudo aptitude install -y python3-pip python3-flask sox git build-essential libtool cmake usbutils libusb-1.0-0-dev -y 
 sudo aptitude install -y rng-tools libsamplerate-dev libatlas3-base libgfortran5 -y
 echo "Install rtl-sdr"
